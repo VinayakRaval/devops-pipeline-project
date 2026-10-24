@@ -1,0 +1,10 @@
+﻿services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devops-launchpad:1.0
+    container_name: devops-launchpad
+    ports:
+      - "8080:80"
+    restart: unless-stopped

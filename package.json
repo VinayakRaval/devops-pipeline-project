@@ -1,0 +1,22 @@
+{
+  "name": "devops-project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node app.js",
+    "validate:html": "htmlhint site/**/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.9.2",
+    "supertest": "^7.3.1"
+  }
+}
